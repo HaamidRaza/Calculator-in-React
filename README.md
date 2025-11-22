@@ -1,12 +1,59 @@
-# React + Vite
+# Calculator-in-React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple calculator built with React and Vite.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a lightweight calculator application implemented using React and bundled with Vite.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Basic arithmetic operations (addition, subtraction, multiplication, division)
+
+Clear / reset functionality
+
+Built using React hooks and functional components
+
+## Getting Started
+
+### To run the project locally: clone the repo
+```
+git clone https://github.com/HaamidRaza/Calculator-in-React.git
+```
+### Navigate to the directory: 
+```
+cd Calculator-in-React
+```
+### install dependencies
+```
+npm install
+```
+### start the development server
+```
+npm run dev
+```
+
+This will output the production-ready files in the dist/ directory.
+
+## Project Structure
+```
+/
+├─ public/            # static public assets (e.g., index.html)
+├─ src/               # source code (React components, styles, logic)
+├─ package.json       # project metadata + dependencies
+├─ vite.config.js     # configuration for Vite
+├─ eslint.config.js   # linting configuration
+└─ README.md          # this file
+
+```
+## Why Use This
+
+Great for beginners learning React and how to structure a small app
+
+## License & Contribution
+
+Feel free to fork this project and build upon it.
+If you add features or fix bugs, you’re welcome to open a pull request.
+
+``
+Simple, clean, and effective — a good starting point for learning React and building UI-driven applications.``
